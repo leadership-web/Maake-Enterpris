@@ -1,0 +1,81 @@
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #555;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .intro img {
+            width: 100%;
+            height: auto;
+        }
+        .quote {
+            font-size: 1.2em;
+            margin: 20px 0;
+            color: #007BFF;
+            text-align: center;
+        }
+        .services, .team, .contact, .testimonials {
+            margin-bottom: 40px;
+        }
+        .services ul, .testimonials ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li, .testimonials li {
+            background-color: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #007BFF;
+        }
+        .team {
+            display: flex;
+            justify-content: space-around;
+        }
+        .team-member {
+            text-align: center;
+            flex: 1;
+            margin: 10px;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
